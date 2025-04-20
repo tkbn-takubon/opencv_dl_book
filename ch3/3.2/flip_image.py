@@ -1,7 +1,7 @@
 import cv2
 
 # 画像ファイルをカラーで読み込み
-src = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
+src = cv2.imread('ch3/3.2/yorkie.png', cv2.IMREAD_COLOR)
 
 # X軸を中心に反転
 dst = cv2.flip(src, 0)

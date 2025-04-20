@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # ファイル名
-filename = 'input.xml'
+filename = 'ch3/3.5/input.xml'
 
 # 読み込みモードでファイルを開く
 fs = cv2.FileStorage(filename, cv2.FileStorage_READ)

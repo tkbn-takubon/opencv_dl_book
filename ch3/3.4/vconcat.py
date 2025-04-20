@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 
 # 画像ファイルをカラーで読み込み
-img1 = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
-img2 = cv2.imread('yorkie_flip_0.png', cv2.IMREAD_COLOR)
+img1 = cv2.imread('ch3/3.4/yorkie.png', cv2.IMREAD_COLOR)
+img2 = cv2.imread('ch3/3.4/yorkie_flip_0.png', cv2.IMREAD_COLOR)
 
 # 画像を垂直方向に連結
 vconcat_img = cv2.vconcat([img1, img2])

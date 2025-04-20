@@ -1,7 +1,7 @@
 import cv2
 
 # 画像ファイルをカラーで読み込み
-img = cv2.imread('yorkie.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('ch3/3.5/yorkie.jpg', cv2.IMREAD_COLOR)
 
 # cv2.TickMeterクラスのインスタンスを生成
 timer = cv2.TickMeter()

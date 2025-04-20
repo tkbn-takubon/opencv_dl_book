@@ -1,7 +1,7 @@
 import cv2
 
 # 画像ファイルをカラーで読み込み
-img = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
+img = cv2.imread('ch3/3.4/yorkie.png', cv2.IMREAD_COLOR)
 
 # プレーンの抽出
 b_plane, g_plane, r_plane = cv2.split(img)

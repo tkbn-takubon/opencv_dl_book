@@ -1,8 +1,8 @@
 import cv2
 
 # 画像ファイルをカラーで読み込み
-img1 = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
-img2 = cv2.imread('yorkie_flip_0.png', cv2.IMREAD_COLOR)
+img1 = cv2.imread('ch3/3.4/yorkie.png', cv2.IMREAD_COLOR)
+img2 = cv2.imread('ch3/3.4/yorkie_flip_0.png', cv2.IMREAD_COLOR)
 
 # 画像を水平方向に連結
 hconcat_img = cv2.hconcat([img1, img2])
