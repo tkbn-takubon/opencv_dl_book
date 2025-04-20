@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # 画像ファイルをカラーで読み込み
-org_img = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
+org_img = cv2.imread('ch3/3.2/yorkie.png', cv2.IMREAD_COLOR)
 
 # cv2.copyToでコピーする
 mask = np.full(org_img.shape, 255, np.uint8)
