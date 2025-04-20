@@ -1,8 +1,8 @@
 import cv2
 
 # 画像ファイルをカラーで読み込み
-src1 = cv2.imread('aloeL.png', cv2.IMREAD_COLOR)
-src2 = cv2.imread('aloeR.png', cv2.IMREAD_COLOR)
+src1 = cv2.imread('ch3/3.2/aloeL.png', cv2.IMREAD_COLOR)
+src2 = cv2.imread('ch3/3.2/aloeR.png', cv2.IMREAD_COLOR)
 
 alpha = 0.5
 beta = 0.5
