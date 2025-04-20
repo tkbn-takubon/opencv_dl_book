@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 # 画像ファイルをカラーで読み込み
-img = cv2.imread('yorkie.png', cv2.IMREAD_COLOR)
+img = cv2.imread('ch3/3.1/yorkie.png', cv2.IMREAD_COLOR)
 
 x = 200
 y = 100
